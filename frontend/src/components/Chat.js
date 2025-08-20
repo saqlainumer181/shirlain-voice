@@ -18,7 +18,7 @@ const Chat = () => {
   const [inputMessage, setInputMessage] = useState('');
   const [isConnected, setIsConnected] = useState(false);
   const [isTyping, setIsTyping] = useState(false);
-  const [sessionId] = useState(uuidv4());
+
   
   // Reference to scroll to bottom
   const messagesEndRef = useRef(null);
@@ -131,11 +131,18 @@ const Chat = () => {
   return (
     <ChatContainer>
       <ChatHeader>
-        <h1>🍴 The Golden Fork</h1>
-        <p>Restaurant Reservations & Inquiries</p>
+        <div className="header-content">
+          <div className="bot-icon">
+            🍽️
+          </div>
+          <div className="bot-info">
+            <h1>The Golden Fork</h1>
+            <p>Restaurant Reservations & Inquiries</p>
+          </div>
+        </div>
         <ConnectionStatus $connected={isConnected}>
           <span className="dot"></span>
-          {isConnected ? 'Connected' : 'Connecting...'}
+          {isConnected ? 'Online' : 'Connecting...'}
         </ConnectionStatus>
       </ChatHeader>
       
@@ -159,15 +166,13 @@ const Chat = () => {
           value={inputMessage}
           onChange={(e) => setInputMessage(e.target.value)}
           onKeyPress={handleKeyPress}
-          placeholder="Type your message..."
+          placeholder="Type your message here..."
           disabled={!isConnected}
         />
         <SendButton 
           onClick={handleSendMessage}
           disabled={!isConnected || !inputMessage.trim()}
-        >
-          Send
-        </SendButton>
+        />
       </InputContainer>
     </ChatContainer>
   );

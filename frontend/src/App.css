@@ -11,8 +11,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #E8D5F2 0%, #D4B5F0 50%, #C8A8E8 100%);
   min-height: 100vh;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 20% 50%, rgba(216, 191, 216, 0.3) 0%, transparent 50%),
+              radial-gradient(circle at 80% 80%, rgba(221, 160, 221, 0.3) 0%, transparent 50%),
+              radial-gradient(circle at 40% 20%, rgba(230, 190, 230, 0.2) 0%, transparent 50%);
+  pointer-events: none;
 }
 
 .App {
@@ -27,5 +39,6 @@ body {
 @media (max-width: 600px) {
   .App {
     padding: 0;
+    align-items: flex-end;
   }
 }

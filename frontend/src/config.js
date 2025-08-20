@@ -7,15 +7,23 @@ const config = {
   // Restaurant Information
   RESTAURANT_NAME: 'The Golden Fork',
   
-  // Color Scheme
+  // Color Scheme - Updated to match reference design
   COLORS: {
-    primary: '#FFD700',      // Gold
-    secondary: '#3E2723',    // Dark Brown
-    accent: '#FFF8DC',       // Cream
-    text: '#333333',         // Dark Gray
+    primary: '#5B5FCF',      // Primary purple/blue
+    secondary: '#7B3FF2',    // Secondary purple
+    gradient: 'linear-gradient(135deg, #5B5FCF 0%, #7B3FF2 100%)',
+    userMessage: '#7B3FF2',  // User message purple
+    botMessage: '#FFFFFF',   // Bot message white
+    chatBg: '#F5F5F7',      // Chat background light gray
+    text: '#333333',         // Dark text
+    textLight: '#6B7280',   // Light gray text
     background: '#FFFFFF',   // White
-    error: '#FF5252',        // Red
-    success: '#4CAF50',      // Green
+    inputBg: '#F9FAFB',     // Input background
+    inputBorder: '#E5E7EB', // Input border
+    online: '#10B981',       // Green for online status
+    error: '#EF4444',        // Red
+    success: '#10B981',      // Green
+    shadow: 'rgba(0, 0, 0, 0.1)',
   }
 };
 
