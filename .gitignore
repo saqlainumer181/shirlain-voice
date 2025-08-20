@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+bionic-baton-465409-a5-1779f04890f5.json
+service-account.json
+credentials
+
 # Distribution / packaging
 .Python
 build/

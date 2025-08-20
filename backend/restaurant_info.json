@@ -1,0 +1,123 @@
+{
+  "restaurant": {
+    "name": "The Golden Fork",
+    "type": "Fine Dining Restaurant",
+    "cuisine": "Contemporary American with International Influences",
+    "address": "123 Gourmet Avenue, Culinary District, New York, NY 10001",
+    "phone": "+1 (212) 555-0123",
+    "email": "reservations@thegoldenfork.com",
+    "website": "www.thegoldenfork.com"
+  },
+  "hours": {
+    "monday": "11:00 AM - 10:00 PM",
+    "tuesday": "11:00 AM - 10:00 PM",
+    "wednesday": "11:00 AM - 10:00 PM",
+    "thursday": "11:00 AM - 11:00 PM",
+    "friday": "11:00 AM - 11:00 PM",
+    "saturday": "10:00 AM - 11:00 PM",
+    "sunday": "10:00 AM - 9:00 PM"
+  },
+  "menu": {
+    "appetizers": [
+      {
+        "name": "Oysters Rockefeller",
+        "description": "Fresh oysters baked with herb butter, spinach, and parmesan",
+        "price": "$18",
+        "dietary": ["gluten-free"]
+      },
+      {
+        "name": "Truffle Arancini",
+        "description": "Crispy risotto balls with truffle oil and parmesan",
+        "price": "$14",
+        "dietary": ["vegetarian"]
+      },
+      {
+        "name": "Seared Scallops",
+        "description": "Pan-seared scallops with cauliflower puree and crispy pancetta",
+        "price": "$22",
+        "dietary": ["gluten-free"]
+      }
+    ],
+    "main_courses": [
+      {
+        "name": "Wagyu Beef Tenderloin",
+        "description": "8oz grilled wagyu with roasted vegetables and red wine reduction",
+        "price": "$65",
+        "dietary": ["gluten-free"]
+      },
+      {
+        "name": "Pan-Roasted Salmon",
+        "description": "Atlantic salmon with lemon butter sauce, asparagus, and wild rice",
+        "price": "$32",
+        "dietary": ["gluten-free"]
+      },
+      {
+        "name": "Mushroom Risotto",
+        "description": "Creamy arborio rice with wild mushrooms and truffle oil",
+        "price": "$28",
+        "dietary": ["vegetarian", "gluten-free"]
+      },
+      {
+        "name": "Lobster Thermidor",
+        "description": "Whole lobster with cognac cream sauce and gruyere",
+        "price": "$58",
+        "dietary": []
+      }
+    ],
+    "desserts": [
+      {
+        "name": "Chocolate Soufflé",
+        "description": "Warm chocolate soufflé with vanilla ice cream",
+        "price": "$12",
+        "dietary": ["vegetarian"]
+      },
+      {
+        "name": "Crème Brûlée",
+        "description": "Classic vanilla custard with caramelized sugar",
+        "price": "$10",
+        "dietary": ["vegetarian", "gluten-free"]
+      },
+      {
+        "name": "Seasonal Fruit Tart",
+        "description": "Fresh seasonal fruits with pastry cream",
+        "price": "$11",
+        "dietary": ["vegetarian"]
+      }
+    ]
+  },
+  "wine_list": [
+    {
+      "category": "Red Wine",
+      "selections": [
+        "2018 Caymus Cabernet Sauvignon - Napa Valley - $120",
+        "2019 Pinot Noir - Willamette Valley - $65",
+        "2017 Brunello di Montalcino - Tuscany - $95"
+      ]
+    },
+    {
+      "category": "White Wine",
+      "selections": [
+        "2020 Chablis Premier Cru - Burgundy - $75",
+        "2021 Sauvignon Blanc - Marlborough - $45",
+        "2020 Riesling - Mosel - $50"
+      ]
+    }
+  ],
+  "special_services": [
+    "Private dining rooms available for groups of 10-50",
+    "Custom tasting menus available with 48-hour notice",
+    "Wine pairing options for all tasting menus",
+    "Vegan and gluten-free menus available upon request",
+    "Live jazz music every Friday and Saturday evening",
+    "Complimentary valet parking",
+    "Birthday and anniversary special arrangements"
+  ],
+  "policies": [
+    "Reservations recommended, especially for weekends",
+    "Business casual dress code",
+    "Cancellations must be made at least 2 hours in advance",
+    "Large parties (8+) require credit card hold",
+    "Children's menu available",
+    "Service charge of 20% for parties of 6 or more"
+  ]
+}
