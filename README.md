@@ -3,7 +3,6 @@
 An intelligent, real-time chatbot system for restaurant reservations and inquiries, featuring natural language processing, automated booking management, and seamless calendar integration.
 
 ![Chat Interface Screenshot](./screenshots/chat-interface.png)
-_[Add your screenshot here - showing the beautiful purple gradient chat interface]_
 
 ## ✨ Features
 
