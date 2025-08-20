@@ -289,6 +289,5 @@ For questions or support, please contact:
 ### Chat Interface
 
 ![Chat Interface](./screenshots/chat-interface.png)
-_[Add screenshot showing the main chat interface with the purple gradient background]_
 
 <p align="center">Built with ❤️ for The Golden Fork Restaurant</p>
